@@ -1,0 +1,46 @@
+/*body{
+    text-align: center;
+    background: #00ECB9;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}*/
+.timer-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.timer-element{
+    flex-direction: column;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 65px;
+    margin-right: 3px;
+
+}
+.timer-element:nth-last-child(){
+    margin-right: 0px;
+}
+.timer-clock{
+
+}
+.timer-description{
+
+}
+span.number{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--text_primary);
+}
+span.label{
+    color: var(--text_secondary);
+}
